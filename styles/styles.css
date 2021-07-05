@@ -1,0 +1,534 @@
+
+*{margin: 0%;
+font-family: 'Roboto', sans-serif;
+box-sizing: content-box;}
+
+/*header-a primera parte bloque div*/
+
+.header-a{
+    height: 20px;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/*letra del header*/
+.header-a a{
+    color:#F3F3F3; 
+    text-decoration: none;   
+    
+}
+/*letra del español y ARG*/
+.español {
+    margin-right: 60px;
+    display: flex;
+    grid-column-gap: 20px;
+}
+
+/*posición de grandes ofertas..*/
+
+#grandes{
+    margin-left: 90px;
+    font-weight: 400; 
+}
+/*posición de español y ARG*/
+.español{
+    right: 60px;
+    font-weight: 400; 
+}
+
+
+/*Fondo del header 2*/
+
+.header-b{
+    background-color: #F0A83E; 
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*espaciado del logo*/
+
+#logo-frontal{
+    margin-left: 44px;
+   
+}
+/*creación de menú*/
+
+.menu{
+    display: flex;
+    font-weight: 400; 
+    margin-right: 40px;
+    grid-column-gap: 20px;
+    margin-right: 8%;
+}
+
+/*color del menú*/
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 13 px;
+    font-weight: 400;
+
+}
+
+/*menu response logo de menú*/
+img#menu-response{
+    display: none;
+}
+
+
+
+/*Primera imagen de fondo grande*/
+.imagen-fondo{
+    height: 409px;
+    background-image: url(../img/bowl.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+/*texto fondo imagen de fondo grande 
+es la caja principal, alineación de todo el
+texto
+*/
+.texto-fondo {
+    display: flex;
+    text-align: center;
+    font-weight: 400; 
+    flex-direction: column;
+    margin-right: 20px;
+    grid-row-gap: 15px;
+    align-items: center;
+
+}
+/*Texto 1 y su respectiva aliniación
+y formato*/
+#text1{
+    background-color: white;
+    font-size: 30px;
+    border-radius: 5px;
+    width: 365px;
+    height: 54px;
+    font-weight: 400; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Texto 2 y su formato*/
+#text2{
+    font-size: 16px;
+    font-weight: 400; 
+}
+/*Texto 3 caja*/
+.text3 {
+    background-color:#F0A83E;
+    width: 141px;
+    font-size: 16px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+/*Texto 3 y su respectiva alineación
+y formato*/
+#formato-text3{
+    color: #FFFFFF;
+    font-weight: 400; 
+    height: 49px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+/*Huella*/
+#huella{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#huellapc{
+    display: block;
+}
+
+#huellacel{
+    display: none;
+}
+
+/*Ubicación de los subtitulos*/
+.subtitulo-productos{
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 20px;
+    align-items: center;
+}
+/*Formato subtitulos*/
+#subtitulo{
+    font-size: 42px; 
+    font-weight: 700; 
+    margin:0; 
+    text-align: center;
+    color: #3C2313;
+}
+/*Formato pestaña productos*/
+.pestañas-productos{
+    font-size: 19px; 
+    font-weight: 400; 
+    color: #666666;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    grid-column-gap: 13px;
+}
+
+/*Formato pestaña productos color*/
+.pestañas-productos a{
+    text-decoration: none;
+    color:#666666}
+
+/*caja mayor con las imagenes
+de productos para la venta ubicado
+en filas*/
+.section-products{
+    display: flex;
+    justify-content: center;
+    margin-top: 49px;
+    flex-wrap: wrap;
+    grid-column-gap: 20px;
+}
+/*contenido de la caja mayor ubicado en
+columnas*/
+.mini-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FBFAF6;
+    margin-top: 20px;
+}
+/*formato del mini section para quitar
+subrayado*/
+.mini-section a{
+    text-decoration: none;
+}
+
+/*formato del titulo del producto*/
+.description-img{
+    color: #3C2313;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+/*formato del precio del producto*/
+.price{
+    color: #F0A83E;
+    font-size: 15px;
+    font-weight: 500;
+}
+/*caja mayor de contacto*/
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-row-gap: 10px;
+    margin-bottom: 75px;
+}
+/*titulo de contactanos*/
+.contactanos{
+    text-align: center; 
+    font-size: 30px; 
+    color: #3c2313 ;
+    font-weight: 700;
+    margin-top: 78px;
+    margin-bottom: 20px;
+    
+}
+/*formulario de llenado*/
+.formulario{
+    text-align: left;
+    font-size: 10px; 
+    background-color: #3C2313;
+    border-radius: 15px;
+    color: #fff;
+    width: 340px;
+    Height: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    
+}
+/*padding dentro de la caja formulario*/
+.contact p{
+    padding-left: 14px;
+
+}
+
+/*alineación de los botone de envío y reset*/
+.centrar-respuesta{
+    display: flex;
+    text-align: center;
+    padding: 0;
+    grid-column-gap: 10px;
+    margin-top: 41px;
+}
+/*fondo boton resetear*/
+#box-reset{
+
+    width: 110px;
+    Height: 34px;
+    background-color:#8A8787;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*fondo boton enviar*/
+#box-sent{
+    width: 110px;
+    Height: 34px;
+    background-color: #F0A83E;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*formato letra resetear*/
+#resetear-formulario{
+    font-size: 18px; 
+    color: #fff;
+    text-decoration: none;
+}
+/*formato letra enviar*/
+#enviar-formulario{
+    font-size: 18px; 
+    color: #fff;
+    text-decoration: none;
+}
+
+/*caja de suscribirse*/
+.suscribirse{
+    background-color: #F0A83E; 
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+/*sub-caja izquierda*/
+.img-text{
+    display: flex;
+    grid-column-gap: 10px;
+    margin-left: 23px;
+
+}
+/*sub-caja derecha*/
+.img-text-two{
+    display: flex;
+    grid-column-gap: 10px;
+    margin-right: 47px;
+    align-items: center;
+
+}
+
+/*formato suscribete*/
+#suscribete{
+    color: #fff;
+    font-size: 22px;
+    
+}
+/* texto suscribete ubicación*/
+#text-suscribete{
+    display: flex;
+    align-items: center;
+}
+
+/*background boton de ingreso correo*/
+#fondo-correo{
+    width: 271px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+
+}
+/*formato texto correo*/
+#ingresar-correo-dos{
+    font-size: 9px;
+    color:#A0A0A0;
+    margin-left: 8px;
+    
+}
+/*background boton de suscrbirme*/
+#fondo-suscribirse{
+    width: 70px;
+    height: 34px;
+    background-color:#3C2313;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/*formato texto suscribirme*/
+#boton-suscribirse{
+    color: #fff;
+    font-size: 9px;
+}
+
+.footer-uno{
+    height: 284px; 
+    background-color:#3C2313;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.division-footer{
+    display: flex;
+    grid-column-gap: 25px ;
+
+}
+
+.icons-division{
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 20px;
+    margin-left: 70px;
+    justify-content: center;
+}
+.description-icons{
+    display: flex;
+    flex-direction: column;
+    grid-row-gap:51px;
+    margin-top: 23px;
+}
+.format-text-icon{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.format-mintext-icon{
+    color: #8A8787;
+    font-size: 10px;
+    font-weight: 700;
+    font-style: sl
+}
+
+#logofinal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 74px;
+}
+#logofinal2 {
+    display: none;
+}
+#finalFooter{
+    display: flex;
+    background-color: black;
+    height: 20px;
+    color:white;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 700; 
+    justify-content: center;
+    align-items: center;
+}
+
+@media  (max-width: 660px){
+
+    .header-a{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    img#menu-response{
+        display: block;
+        margin-right: 10%
+    }
+    .imagen-fondo{
+        height: 440px;
+        background-image: url(../img/bowlphone.png);
+    }
+    .texto-fondo {
+        align-items: flex-end;
+    }
+    .text3 {
+        margin-right: 5%;
+    }
+    #text1 {
+        font-size: 25px;
+    }
+    #huellapc{
+        display: none;
+    }
+    #huellacel{
+        display: block;
+    }
+    .contactanos {
+        font-size: 47px;
+    }
+
+    .formulario {
+        width: 298px;
+    }
+    #box-reset {
+        width: 199px;
+        height: 45px;
+    }
+    #box-sent {
+        width: 199px;
+        height: 45px;
+    }
+    .suscribirse {
+        height: 101px;
+    }
+    #fondo-correo {
+        margin-left: 4%;
+        margin-bottom: 1%;
+    }
+    #logofinal{
+        order:1
+    }
+    .division-footer{
+        order: 2;
+    }
+    #logofinal {
+        display: none
+    }
+    #logofinal2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 0;
+    }
+    .footer-uno {
+        justify-content: center;
+    }
+    #finalFooter {
+        font-size: 15px;
+    }
+}
+
+@media  (max-width: 409px){
+    .centrar-respuesta {
+        flex-wrap: wrap;
+        justify-content: center;
+        grid-row-gap: 5px;
+    }
+}
+
+@media  (max-width: 780px){
+    .suscribirse {
+        height: 101px;
+    }
+}
