@@ -5,4 +5,4 @@
 
 > I present you the PetShop, a beutiful page to buy some products for your Pet
 
-![This is an image](https://github.com/celfiew/petshop-pseudo/blob/main/img/celfiew.github.io_petshop-pseudo_.png)
+![This is an image](https://github.com/celfiew/PetShopStore_E-commerce-Version3/blob/main/img/celfiew.github.io_PetShopStore_E-commerce-Version3_.png)
